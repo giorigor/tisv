@@ -14,14 +14,6 @@ import 'package:sogecovic/customer/main.dart';
 void main() {
     testWidgets('Counter increments smoke test', (WidgetTester tester) async {
         // Build our app and trigger a frame.
-        await tester.pumpWidget(new CustomerApp());
 
-        Restaurante rest = new Restaurante();
-
-        rest.saguao[1] = new Mesa(1);
-        rest.saguao[2] = new Mesa(2);
-        rest.saguao[3] = new Mesa(3);
-
-        print(rest.saguao);
     });
 }
